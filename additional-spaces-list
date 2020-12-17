@@ -1,0 +1,18 @@
+# This file contain the mappings between the source and destination spaces.
+#
+# Each line represents a mapping between the id of the space on the source Looker Instance and the id of the space on
+# the destination Looker Instance.  Typically, the source space id is the personal space id on the looker instance
+# where we want to migrate its content.  The destination space id is the corresponding space id of the Looker instance
+# where we want to migrate to.
+#
+# Example:
+#
+# 15,68
+#
+# The line above indicates that we will migrate everything inside space id 15 from the src Looker instance to the
+# space id of 68 on the destination Looker.
+#
+# Note: LookerMT will check to make sure that the src and dst spaces exist on the src and dst Looker instance
+# correspondingly.  If either does not exist, LookerMT will exit.
+#
+#
